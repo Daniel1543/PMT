@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMT</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <main>
+        <div class="section">
+            <div class="title">Calculadora PMT</div>
+
+            <div class="input">
+              <input placeholder="Digite o valor da sua renda." type="number" id="renda" required="required">
+            </div>
+
+            <div class="input">
+              <input placeholder="Digite o valor do bem." type="number" id="valor" required="required">
+            </div>
+
+
+            <div class="input">
+                <input placeholder="Digite o valor da entrada." type="number" id='entrada' required="required">
+           </div>
+   
+           <div class="input">
+             <input placeholder="Digite o valor da taxa." type="number" id='taxa' required="required" >
+         </div>
+   
+           <div class="input">
+               <input  placeholder="Digite o número de parcelas."  type="number" id='parcelas' required="required">
+           </div>
+                        
+           <button id='calcular'>Calcular</button>
+   
+           <div class="result" id='resultado'></div>
+   
+           <footer> Atenção! O PMT deve ser interpretado somente por um profissional financeiro. </footer> 
+       </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
