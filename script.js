@@ -25,7 +25,7 @@ function pmt () {
     }
     else
     {
-        resultado.textContent = 'Para calcular o seu PACE , preencha todos os campos.';
+        resultado.textContent = 'Para calcular o seu PMT , preencha todos os campos.';
     }
 
 }
